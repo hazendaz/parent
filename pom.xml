@@ -534,6 +534,8 @@
               Export-Package: ${osgi.export}
               Private-Package: ${osgi.private}
               Import-Package: ${osgi.import}
+              -includeresources: {src/main/resources}
+              Include-Resource: META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE
             ]]></bnd>
           </configuration>
           <dependencies>
