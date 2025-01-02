@@ -1212,7 +1212,7 @@
                 <recipe>org.openrewrite.java.migrate.util.SequencedCollection</recipe>
                 <recipe>org.openrewrite.java.migrate.io.ReplaceFileInOrOutputStreamFinalizeWithClose</recipe>
 
-                <recipe>org.openrewrite.java.migrate.UpgradeToJava8</recipe>
+                <recipe>org.openrewrite.java.migrate.UpgradeToJava11</recipe>
 
                 <recipe>org.openrewrite.recipes.JavaRecipeBestPractices</recipe>
                 <recipe>org.openrewrite.recipes.OpenRewriteBestPractices</recipe>
